@@ -121,10 +121,11 @@ nmap -sV --script vuln 172.28.128.3
 
 **Detection Log**
 
-|**Timestamp**|**Target IP**|**Vulnerability**|**PTES Phase**|
-|---|---|---|---|
-|2026-04-10 16:33:00|172.28.128.3|ProFTPD 1.3.5 RCE|Exploitation|
-|2026-04-10 16:53:00|172.28.128.3|SQL Injection|Exploitation|
+| **Timestamp**       | **Target IP** | **Vulnerability** | **PTES Phase** |
+| ------------------- | ------------- | ----------------- | -------------- |
+| 2026-04-10 16:33:00 | 172.28.128.3  | ProFTPD 1.3.5 RCE | Exploitation   |
+| 2026-04-10 16:53:00 | 172.28.128.3  | SQL Injection     | Exploitation   |
+|                     |               |                   |                |
 
 **Remediation Suggestion**
 
